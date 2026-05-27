@@ -6,12 +6,12 @@ class Rexconverter < Formula
   on_macos do
     on_arm do
       version = 'v0.1.1'
-      url "https://github.com/g-lok/rexconverter/releases/download/v#{version}/rexconverter-#{version}-macos.tar.gz"
+      url "https://github.com/g-lok/rexconverter/releases/download/#{version}/rexconverter-#{version}-macos.tar.gz"
       sha256 '31c3e53bf6fbde0fc07c527bd3e0b329e7544d8c4aba3a2a952ee2b902ccbd80'
     end
     on_intel do
       version = 'v0.1.1'
-      url "https://github.com/g-lok/rexconverter/releases/download/v#{version}/rexconverter-#{version}-macos.tar.gz"
+      url "https://github.com/g-lok/rexconverter/releases/download/#{version}/rexconverter-#{version}-macos.tar.gz"
       sha256 '31c3e53bf6fbde0fc07c527bd3e0b329e7544d8c4aba3a2a952ee2b902ccbd80'
     end
   end
