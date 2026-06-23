@@ -3,21 +3,21 @@ class Chirashi < Formula
   homepage 'https://github.com/g-lok/chirashi'
   license 'MIT'
 
-  version 'v0.1.0'
+  version 'v0.3.0'
 
   on_macos do
     url "https://github.com/g-lok/chirashi/releases/download/#{version}/chirashi-#{version}-macos.tar.gz"
-    sha256 '8b6ac1f4c58ef762d7b7a13c424a197aff0f3a2bc5e54356b7da572f3002b075'
+    sha256 'a5358b7a5420889f5ef6d51b732458c104856ab75dbe93a6715a0ee51ad3e40e'
   end
 
   on_linux do
     on_intel do
       url "https://github.com/g-lok/chirashi/releases/download/#{version}/chirashi-#{version}-linux-amd64"
-      sha256 '89461cc04550bf83360d8ddea060c8449f1a0b41450d5c2f66e47bab09d3a105'
+      sha256 '2a2a69c4b96bc5e750db33190882c6121370d224433f288a4b60dd6a5171e4bb'
     end
     on_arm do
       url "https://github.com/g-lok/chirashi/releases/download/#{version}/chirashi-#{version}-linux-arm64"
-      sha256 '12eff2549ddb241babcef991c4bd7e9d99e515ba2b90f8c8048e87890b751558'
+      sha256 '5a9337c10eaa5a9d3285e8b859ec71ffbdb8b63a742382d62d59601be3d65e30'
     end
   end
 
