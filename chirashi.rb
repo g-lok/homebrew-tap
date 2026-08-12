@@ -3,27 +3,27 @@ class Chirashi < Formula
   homepage 'https://github.com/g-lok/chirashi'
   license 'MIT'
 
-  version 'v1.0.0'
+  version 'v1.1.0'
 
   on_macos do
     on_intel do
       url "https://github.com/g-lok/chirashi/releases/download/#{version}/chirashi-#{version}-darwin-amd64.tar.gz"
-      sha256 'df69d360157e98d82bca29e4f77000d9d2cc7b2fd9f28485ccf70e5397d167e7'
+      sha256 'f349513cf972f3f8962a6703591219f8c368c16b88d9c78abda36ca3fe7a8c2b'
     end
     on_arm do
       url "https://github.com/g-lok/chirashi/releases/download/#{version}/chirashi-#{version}-darwin-arm64.tar.gz"
-      sha256 '6cf3ced00ffda892699d8660be2cc46d559ff2ff4add1d2856fd78f8d8cecf01'
+      sha256 'f1deafb17810d6f32d3b1b897d09fbf2e12b3a49d27bcb4e2b633c34af98a23b'
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/g-lok/chirashi/releases/download/#{version}/chirashi-#{version}-linux-amd64.tar.gz"
-      sha256 '7b1e8f1e596a597080495af5fd8eed271876c737c0cdd1af0f89cfa7ac2459c5'
+      sha256 'a6cdabd840d838ca22e1723bb6b809e814c68bc5cb83ff1ba3ef9c3cc847389f'
     end
     on_arm do
       url "https://github.com/g-lok/chirashi/releases/download/#{version}/chirashi-#{version}-linux-arm64.tar.gz"
-      sha256 '22a17e24d092b137f2684fa4366020cff7ee6bf4e3a229c5da95db70945cb760'
+      sha256 '5fd36a3df18288677c223cbb395c50c17da8e35cdd293dfc1e4be219168d87bf'
     end
   end
 
